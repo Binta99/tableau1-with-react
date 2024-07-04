@@ -42,7 +42,7 @@ class Etudiant extends React.Component {
   render() {
     return (
       <div>
-        {/* le formulaire */}
+        {/* le formulaire - <Form /> */}
         <div>
           <h1>Ajouter un Etudiant</h1>
 
@@ -95,7 +95,7 @@ class Etudiant extends React.Component {
             </div>
           </form>
         </div>
-        {/* le tableau */}
+        {/* le tableau - <UsersList /> */}
         <div>
           <h1>Classement des Etudiant dans le tableau</h1>
           <div>
